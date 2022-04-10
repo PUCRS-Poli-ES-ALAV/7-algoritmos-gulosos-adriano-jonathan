@@ -19,7 +19,7 @@ public class Exer2 {
                 }
             }
             if(a1[0][j] > m){
-                soma+=razao;
+                soma+=m*razao;
                 m=-1;
             }else{
                 m-=a1[0][j];
